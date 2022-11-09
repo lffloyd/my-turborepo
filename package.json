@@ -9,8 +9,8 @@
     "build": "turbo run build",
     "test": "turbo run test",
     "prune": "turbo run prune",
-    "lint": "turbo run lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "format": "prettier --write \"**/*.{ts,md}\"",
+    "lint": "eslint --fix \"**/*.ts\""
   },
   "devDependencies": {
     "@types/aws-lambda": "8.10.108",
