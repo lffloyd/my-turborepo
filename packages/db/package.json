@@ -1,0 +1,15 @@
+{
+  "name": "db",
+  "version": "1.2.0",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "description": "",
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest --silent",
+    "prune": "npm prune --production",
+    "lint": "TIMING=1 eslint \"**/*.ts*\""
+  }
+}

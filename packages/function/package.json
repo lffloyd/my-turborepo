@@ -1,0 +1,17 @@
+{
+  "name": "function",
+  "version": "2.2.2",
+  "description": "",
+  "main": "dist/src/index.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "utils": "*"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "jest --silent",
+    "prune": "npm prune --production",
+    "lint": "TIMING=1 eslint \"**/*.ts*\""
+  }
+}
